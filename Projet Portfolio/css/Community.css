@@ -1,0 +1,282 @@
+body{
+    margin: 0 auto;
+}
+.Yannick{
+    background-image: url(../css/téléchargement.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.triple{
+    display: inline;
+    margin-top: 10%;
+}
+.triple .triple1 p{
+    float: left;
+    margin-left: 5%;
+    display: inline;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15%;
+}
+.triple .triple1 p strong{
+    font-size: 1.5em;
+}
+.triple .triple2{
+    margin-left: 7%;
+    display: inline;
+}
+.triple .triple3{
+    display: inline;
+    padding: 5%;
+    margin-left: 28%;
+}
+.triple .triple2 .img{
+    float: left;
+    margin-left: 5%;
+}
+.triple .triple3 .img{
+    display: inline;
+    margin-left: 67%;
+}
+.triple .triple3 p{
+    float: right;
+    margin-right: 15%;
+    margin-top: -2%;
+}
+.triple .dernier{
+    margin-left: 32%;
+    margin-top: -10%;
+}
+.triple .dernier p{
+    margin-left: 5%;
+    margin-top: -2%;
+}
+.plan{
+    background-color: #8ed1fc;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.plan p{
+    margin-left: 15%;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    display: inline;
+    margin-top: 10%;
+
+}
+.plan p strong{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.plan .img1{
+    float: right;
+    display: inline;
+    margin-left: 50%;
+    margin-top: -30%;
+}
+.plan button{
+    background-color: transparent;
+    border-radius: 30%;
+    width: 15%;
+    color: black;
+    border-color: black;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    float: left;
+    margin-left: -30%;
+    margin-top: 30%;
+    border-color: red;
+}
+.plan button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.plan button :hover{
+    color: orangered;
+    border-color: red;
+    background-color: black;
+}
+.plan2{
+    background-color: #ffffff;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.plan2 p{
+    margin-right: 5%;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    display: inline;
+    margin-top: -25%;
+
+}
+.plan2 p strong{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.plan2 .img2{
+    float: left;
+    display: inline;
+    margin-right: 50%;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.plan2 button{
+    background-color: transparent;
+    border-radius: 30%;
+    width: 15%;
+    color: black;
+    border-color: black;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 35%;
+    margin-top: -10%;
+    border-color: red;
+}
+.plan2 button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.plan2 button :hover{
+    color: orangered;
+    border-color: red;
+    background-color: black;
+}
+.menu{
+    margin-left: 50%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+    
+}
+.menu ul ul{
+    top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}
+.menu ul li ul a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.menu li :hover{
+    text-decoration: underline;
+}
+.menu ul li a{
+    width: 150px;
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+a{
+    margin: 1%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(60, 12, 233);
+}
+.Nicks{
+    background-color: #8ed1fc;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.Nicks .p{
+    margin-left: 5%;
+    float: left;
+    display: inline;
+    margin-top: -1%;
+}
+.Nicks .img1{
+    float: right;
+    display: inline;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+
+.contact-form {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  

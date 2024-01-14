@@ -1,0 +1,298 @@
+body{
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.voiture{
+    margin-left: 15%;
+}
+.voiture #animation{
+    margin-left: 15%;
+}
+h2{
+    text-align: center;
+    margin-right: 25%;
+    margin-top: -5%;
+}
+.double{
+    display: inline;
+    margin-top: 10%;
+}
+.double1{
+    display: inline;
+    float: left;
+    margin: 10%;
+}
+.double2{
+    display: inline;
+    float: right;
+    margin: 5%;
+}
+.double1 p{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.double1 button{
+    background: none;
+    border-radius: 10%;
+    color: black;
+    border-color: orangered;
+    font-size: 1em;
+}
+.double1 button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.double1 button :hover{
+    color: orangered;
+}
+
+.double0{
+    display: inline;
+    margin-top: 10%;
+}
+.double3{
+    display: inline;
+    float: right;
+    margin: 10%;
+    margin-left: 50%;
+}
+.double4{
+    display: inline;
+    float: left;
+    margin: 5%;
+    margin-top: -40%;
+}
+.double3 p{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.double3 button{
+    background: none;
+    border-radius: 10%;
+    color: black;
+    border-color: orangered;
+    font-size: 1em;
+}
+.double3 button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.double3 button :hover{
+    color: orangered;
+}
+ul{
+    color: black;
+    margin-right: -3%;
+}
+.double00{
+    display: inline;
+    margin-top: 10%;
+}
+.double5{
+    display: inline;
+    float: left;
+    margin: 10%;
+    margin-right: 60%;
+}
+.double6{
+    display: inline;
+    float: right;
+    margin: 5%;
+    margin-top: -40%;
+    margin-right: 10%;
+}
+.double5 p{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.double5 button{
+    background: none;
+    border-radius: 10%;
+    color: black;
+    border-color: orangered;
+    font-size: 1em;
+}
+.double5 button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.double5 button :hover{
+    color: orangered;
+}
+
+#phrase{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image2{
+    display: inline;
+    float: right;
+    margin-right: 10%;
+}
+.image1{
+    display: inline;
+    float: left;
+    margin-left: 10%;
+}
+.image1 button{
+    background: none;
+    border-radius: 10%;
+    color: black;
+    border-color: orangered;
+    font-size: 1em;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-left: -2%;
+    text-decoration: none;
+}
+.image1 button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.image1 button :hover{
+    color: orangered;
+}
+.image1 strong{
+    font-size: 1.5em;
+}
+.image2 strong{
+    font-size: 1.5em;
+}
+.image2 button{
+    background: none;
+    border-radius: 10%;
+    color: black;
+    border-color: orangered;
+    font-size: 1em;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+.image2 button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.image2 button :hover{
+    color: orangered;
+}
+button{
+    background: none;
+    border-radius: 10%;
+    color: black;
+    border-color: orangered;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+button :hover{
+    color: orangered;
+}
+.triple{
+    display: inline;
+    margin-top: 5%;
+}
+.triple1{
+    display: inline;
+    float: left;
+    margin-left: 5%;
+}
+.triple2{
+    display: inline;
+    margin-left: 5%;
+}
+.triple3{
+    display: inline;
+    float: right;
+    margin-right: 5%;
+    margin-top: -30%;
+}
+.triple2 p{
+    margin-left: 15%;
+    margin-right: -5%;
+    padding-left: 5%;
+}
+.triple2 #bout2{
+    margin-top: -3%;
+    text-decoration: none;
+}
+.menu{
+    margin-left: 50%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+    
+}
+.menu ul ul{
+    top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}
+.menu ul li ul a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.menu li :hover{
+    text-decoration: underline;
+}
+.menu ul li a{
+    width: 150px;
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+a{
+    margin: 1%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: rgb(60, 12, 233);
+}
+.graph {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: var(--bar-value);
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .bar:nth-child(odd) {
+    background-color: #2ecc71;
+  }
+  
+  .bar:nth-child(even) {
+    background-color: #e74c3c;
+  }
+h2{
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}  

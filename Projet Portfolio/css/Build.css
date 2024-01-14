@@ -1,0 +1,157 @@
+p{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+video{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+#tex1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 60%;
+}
+.vid{
+    position: absolute;
+    margin-left: 25%;
+}
+#tex2{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30%;
+}
+h1{
+    text-align: center;
+}
+.diapo1{
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    border: 3px solid #333;
+    background-image: url(../css/gant-haptique-meta-big__w770.jpg);
+    animation-name: diapo1;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes diapo1{
+    0%{background-image: url(../css/gant-haptique-meta-big__w770.jpg);} 
+    25%{background-image: url(../css/images\ \(1\).jpg);} 
+    50%{background-image: url(../css/images\ \(4\).jpg);} 
+    75%{background-image: url(../css/mere\ et\ fille.jpg);} 
+}
+.diapo2{
+    margin-left: 35%;
+    margin-top: -15%;
+    width: 300px;
+    height: 150px;
+    border: 3px solid #333;
+    background-image: url(../css/enfants.webp);
+    animation-name: diapo2;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes diapo2{
+    0%{background-image: url(../css/enfants.webp);}
+    25%{background-image: url(../css/WhatsApp\ Image\ 2022-03-28\ at\ 19.56.17.jpeg);}
+    50%{background-image: url(../css/WhatsApp\ Image\ 2022-03-28\ at\ 19.56.23.jpeg);}
+    75%{background-image: url(../css/WhatsApp\ Image\ 2022-03-28\ at\ 19.56.50\ \(2\).jpeg);}
+}
+h4{
+    display: inline;
+    float: right;
+    margin-top: -10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.icone{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 2%;
+}
+.casque{
+    margin-left: 20%;
+}
+#tex3{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+button{
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    background: none;
+    border-radius: 15%;
+    margin-left: 5%;
+    margin-top: 3%;
+    color: black;
+    float: left;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+button a:hover{
+    color: blue;
+}
+button :hover{
+    background-color: orangered;
+    border-color: red;
+}
+.menu{
+    margin-left: 50%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+    
+}
+.menu ul ul{
+    top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}
+.menu ul li ul a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.menu li :hover{
+    text-decoration: underline;
+}
+.menu ul li a{
+    width: 150px;
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+a{
+    margin: 1%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: rgb(60, 12, 233);
+}
+hr{
+    margin-bottom: 10%;
+}

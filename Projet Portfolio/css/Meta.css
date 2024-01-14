@@ -1,0 +1,256 @@
+.menu{
+    margin-left: 50%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+    
+}
+.menu ul ul{
+    top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}
+.menu ul li ul a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.menu li :hover{
+    text-decoration: underline;
+}
+.menu ul li a{
+    width: 150px;
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+a{
+    margin: 1%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover{
+    color: rgb(60, 12, 233);
+    font-size: 2em;
+}
+.logo{
+    display: inline;
+}
+body{
+    margin: 1%;
+}
+.Yannick{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.Yannick video{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+}
+h1{
+    color: white;
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    margin-left: 5%;
+    background-color: transparent;
+    border-radius: 30%;
+    width: 15%;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+button a:hover{
+    color: coral;
+}
+button :hover{
+    background-color: black;
+}
+.animation{
+    margin-left: 35%;
+    margin-bottom: -5%;
+}
+.animation p{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -15%;
+    text-align: center;
+    margin-right: 50%;
+}
+.ecriture h1{
+    color: black;
+}
+#tex1{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2%;
+}
+#tex2{
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3%;
+}
+#tex3{
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1%;
+}
+.plan{
+    background-color: rgb(173, 168, 168);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.plan p{
+    margin-left: 5%;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    display: inline;
+    margin-top: 10%;
+
+}
+.plan p strong{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.plan .img1{
+    float: right;
+    display: inline;
+    margin-left: 55%;
+    margin-top: -30%;
+}
+.plan button{
+    background-color: transparent;
+    border-radius: 30%;
+    width: 15%;
+    color: black;
+    border-color: black;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    float: left;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+.plan button :hover{
+    color: orangered;
+    border-color: red;
+    background-color: black;
+}
+h2{
+    margin-left: 2%;
+}
+.triple .triple2 #textriple2{
+    background-color: coral;
+    font-size: 2em;
+}
+.triple{
+    display: inline;
+    margin-top: 5%;
+}
+.triple .triple1{
+    display: inline;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.triple .triple2{
+    display: inline;
+    float: left;
+    margin-left: -41%;
+    margin-top: 10%;
+}
+.triple .triple3{
+    float: right;
+    display: inline;
+    margin-left: 70%;
+    margin-top: -40%;
+}
+.triple .triple3 #textriple3{
+    font-size: 1.5em;
+    background-color: cornflowerblue;
+}
+.triple .triple1 #imatriple2{
+    margin-left: 50%;
+}
+.triple .triple1 #textriple1{
+    background-color: cornflowerblue;
+    font-size: 1.5em;
+    float: left;
+    margin-top: -10%;
+}
+.bouton #lien{
+    float: left;
+    margin-left: 45%;
+    border-color: black;
+    margin-top: 5%;
+}
+.quatre{
+    display: inline;
+    margin-top: 10%;
+}
+.quatre .quatre1{
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15%;
+}
+.quatre .quatre2{
+    display: inline;
+    float: left;
+    margin-left: 25%;
+    margin-top: -22%;
+}
+.quatre .quatre3{
+    display: inline;
+   float: right;
+   margin-right: 5%;
+   margin-top: -25%;
+}
+.quatre .quatre4{
+    display: inline;
+    float: right;
+    margin-left: 80%;
+    margin-top: -25%;
+    
+}
+strong{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+}
